@@ -1,0 +1,21 @@
+{
+  "name": "ghua",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "temkasafov",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^1.12.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "tsc": "^2.0.4",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "watch": "tsc --watch",
+    "dev": "nodemon .\\dist\\index.js"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3"
+  }
+}
